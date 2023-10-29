@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: roboto, sans-serif;
+}
+html{    
+    background-color: #f7f6f6;
+}
+body{
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+}
+main{
+    background-color: #fff;
+    padding: 65px 0 50px;
+}
+header{
+    padding: 15px 0;
+    width: 100%;
+    box-shadow: 0 1px 1px 0px #ccc;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 2;
+    background-color: #483d8b;
+    color:#fff;
+    border-bottom: 3px solid #b8fef9;
+}
+.header-flex{
+    display:flex;
+    flex-direction: row;
+    color: inherit;
+    padding: 0 20px;
+}
+.div-name-as{
+    width: 30%;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.div-name-as ~ div{
+    width:11%;
+    text-align: center;
+}
+.div-volunteering{
+    padding-right: 40px;
+}
+.div-volunteering + div{
+    padding-left: 30px;
+}
+.header-flex a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: inherit;
+}
+.header-flex a:hover{
+    background-color: #fff;
+    color: #483d8b;
+    padding: 5px;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+}
+footer{
+    width:100%;
+    height:250px;
+    background-color:black;
+    /* margin: 50px 0 0; */
+    text-align: center;
+}
+.div-footer-a a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color:white;
+    line-height: 1.6;
+}
+.div-footer-a{
+    padding-top: 60px;
+    margin-left: 60px;
+}
+.div-a-link img{
+    width:25px;
+    height: 30px;
+    margin: 0;
+    padding-top: 10px;
+}
+.div-a-link a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left:10px ;
+}
+.div-footer-a + div{
+    padding-top: 60px;
+    margin-right: 100px;
+}
+.pre-footer{
+    color:white;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.div-copy{
+    color: white;
+    padding-left: 150px;
+    margin-right: 60px;
+    font-size: 0.85rem;
+    margin-top: 30px;
+}
